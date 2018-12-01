@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+body {
+  background: #f1f1f1;
+  text-align: center;
+}
+
+h1.page-title {
+  font-size: 45px;
+  margin: 50px 0;
+}
+
+.how-it-works {
+  margin: 70px 0 50px;
+}
+
+.how-it-works p {
+  margin: 5px 0;
+}
+
+.how-it-works h5 {
+  font-style: italic;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  margin: 0 auto;
+}
+
+form > * {
+  margin: 3px;
+}
+
+input#button {
+  height: 25px;
+}
