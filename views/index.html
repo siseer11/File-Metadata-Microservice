@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>File Metadata Microservice</title>
+    <link rel="stylesheet" href="/public/style.css" />
+  </head>
+  <body>
+    <h1 class="page-title">File Metadata Microservice</h1>
+    <div class="how-it-works">
+      <h3>How it works</h3>
+      <p>1.Upload a file in our form.</p>
+      <p>
+        2.After the file is uploaded you will get the file informations (name,
+        type, size).
+      </p>
+      <h5>(Do not upload files that are bigger then 50mb!)</h5>
+    </div>
+    <form enctype="multipart/form-data" method="POST" action="/api/fileanalyse">
+      <input type="file" name="upfile" />
+      <input id="button" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
